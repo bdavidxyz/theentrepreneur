@@ -1,0 +1,45 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap";
+@import "own-utilities";
+@import "own-hero";
+
+
+// responsive typography
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+// for example only
+.sub-header {
+  padding-bottom: 9px;
+  margin: 10rem 0 2rem;
+  border-bottom: 1px solid #eee;
+  h2 {
+    @extend h1;
+  }
+}
+
+h3.component-title {
+  @extend .lead;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem;
+} 
+h4.component-title {
+  @extend .lead;
+  margin: 1.5rem 0 .5rem;
+}
+
