@@ -43,11 +43,11 @@
 // //
 // // Quickly modify global styling by enabling or disabling optional features.
 
-// $enable-flex:               false;
+ $enable-flex:               false;
 // $enable-rounded:            true;
-// $enable-shadows:            false;
+ $enable-shadows:            false;
 // $enable-gradients:          false;
-// $enable-transitions:        false;
+ $enable-transitions:        true;
 // $enable-hover-media-query:  false;
 // $enable-grid-classes:       true;
 
@@ -57,7 +57,7 @@
 // // Control the default styling of most Bootstrap elements by modifying these
 // // variables. Mostly focused on spacing.
 
-$spacer:                     1rem;
+$spacer:                     0.5rem;
 $spacer-x:                   $spacer;
 $spacer-y:                   $spacer;
 $spacers: (
@@ -100,6 +100,66 @@ $spacers: (
   9: (
     x: ($spacer-x * 9),
     y: ($spacer-y * 9)
+  ),
+  10: (
+    x: ($spacer-x * 10),
+    y: ($spacer-y * 10)
+  ),
+  11: (
+    x: ($spacer-x * 11),
+    y: ($spacer-y * 11)
+  ),
+  12: (
+    x: ($spacer-x * 12),
+    y: ($spacer-y * 12)
+  ),
+  13: (
+    x: ($spacer-x * 13),
+    y: ($spacer-y * 13)
+  ),
+  14: (
+    x: ($spacer-x * 14),
+    y: ($spacer-y * 14)
+  ),
+  15: (
+    x: ($spacer-x * 15),
+    y: ($spacer-y * 15)
+  ),
+  16: (
+    x: ($spacer-x * 16),
+    y: ($spacer-y * 16)
+  ),
+  17: (
+    x: ($spacer-x * 17),
+    y: ($spacer-y * 17)
+  ),
+  18: (
+    x: ($spacer-x * 18),
+    y: ($spacer-y * 18)
+  ),
+  19: (
+    x: ($spacer-x * 19),
+    y: ($spacer-y * 19)
+  ),
+  20: (
+    x: ($spacer-x * 20),
+    y: ($spacer-y * 20)
+  ),
+  21: (
+    x: ($spacer-x * 21),
+    y: ($spacer-y * 21)
+  ),
+  22: (
+    x: ($spacer-x * 22),
+    y: ($spacer-y * 22)
+  ),
+  23: (
+    x: ($spacer-x * 23),
+    y: ($spacer-y * 23)
+  ),
+  24: (
+    x: ($spacer-x * 24),
+    y: ($spacer-y * 24)
   )
 );
 $border-width:               1px;
@@ -294,11 +354,11 @@ $body-bg:                       #fcfafb;
 
 // $btn-link-disabled-color:        $gray-light;
 
-// $btn-padding-x-sm:               .75rem;
-// $btn-padding-y-sm:               .25rem;
+$btn-padding-x-sm:               1.25rem;
+$btn-padding-y-sm:               .75rem;
 
-// $btn-padding-x-lg:               1.25rem;
-// $btn-padding-y-lg:               .75rem;
+$btn-padding-x-lg:               1.75rem;
+$btn-padding-y-lg:               1.25rem;
 
 // // Allows for customizing button radius independently from global border radius
 // $btn-border-radius:              $border-radius;
@@ -328,11 +388,11 @@ $body-bg:                       #fcfafb;
 
 // $input-color-placeholder:        #999;
 
-// $input-padding-x-sm:             .75rem;
-// $input-padding-y-sm:             .275rem;
+$input-padding-x-sm:             1.25rem;
+$input-padding-y-sm:             .75rem;
 
-// $input-padding-x-lg:             1.25rem;
-// $input-padding-y-lg:             .75rem;
+$input-padding-x-lg:             1.75rem;
+$input-padding-y-lg:             1.25rem;
 
 // $input-height:                   (($font-size-base * $line-height) + ($input-padding-y * 2));
 // $input-height-lg:                (($font-size-lg * $line-height-lg) + ($input-padding-y-lg * 2));
