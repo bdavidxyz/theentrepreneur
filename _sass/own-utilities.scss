@@ -72,32 +72,19 @@
 }
 
 
-.cta {
-  max-width: 15rem;
-  @include media-breakpoint-down(sm) {
-    margin-left: auto;
-    margin-right: auto;
-  }  
-}
-
-.cta1 {
-  @extend .form-control;
-  @extend .form-control-lg;
-}
 
 
-.cta2 {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-lg;
-  @extend .btn-block;
-  @include media-breakpoint-up(md) {
-    margin-left: 0.3rem;
-  } 
-  @include media-breakpoint-down(sm) {
-    margin-top: 0.3rem;
-  }
+.marketing-p {
+  padding-left:2.5rem;
+  padding-right:2.5rem;
 }
+
+hr.featurette-divider{
+  height: 1px;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.2) 0, rgba(255,255,255,0) 75%);
+  border-top: none;
+  @extend .m-t-5;
+} 
 
 // .btn, [type=button], [type=submit], button {
 //     background-color: $brand-primary;
