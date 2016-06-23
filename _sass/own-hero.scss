@@ -5,8 +5,8 @@
 
 .hero-description {
   @extend .lead; 
-  @extend .text-muted;
   @extend .text-xs-center;
+  font-weight: 400;
 }
 
 .hero-cta {
@@ -17,16 +17,16 @@
   }  
 }
 
-.hero-cta1 {
+.hero-input {
   @extend .form-control;
-  @extend .form-control-lg;
+  @extend .form-control-xl;
 }
 
 
-.hero-cta2 {
+.hero-button {
   @extend .btn;
   @extend .btn-primary;
-  @extend .btn-lg;
+  @extend .btn-xl;
   @extend .btn-block;
   @include media-breakpoint-up(md) {
     margin-left: 0.3rem;

@@ -159,6 +159,14 @@
   @include border-radius($input-border-radius-lg);
 }
 
+.form-control-xl {
+  // height: $input-height-lg;
+  padding: $input-padding-y-xl $input-padding-x-xl;
+  font-size: $font-size-lg;
+  line-height: $line-height-lg;
+  @include border-radius($input-border-radius-lg);
+}
+
 
 // Form groups
 //
