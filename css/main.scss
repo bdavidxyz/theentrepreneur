@@ -10,20 +10,23 @@
 @import "bootstrap";
 @import "own-utilities";
 @import "own-hero";
+@import "own-separator";
+@import "own-feature";
+@import "own-subfeature-onethird";
 
 
 // responsive typography
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 @include media-breakpoint-up(sm) {
   html {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
-// for example only
+// for full-feature example only
 .sub-header {
   padding-bottom: 9px;
   margin: 10rem 0 2rem;

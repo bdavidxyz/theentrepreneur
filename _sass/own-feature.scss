@@ -1,0 +1,9 @@
+.feature-title {
+  @extend .text-xs-center;
+}
+
+.feature-description {
+  @extend .lead; 
+  @extend .text-xs-center;
+  // font-weight: 400;
+}
