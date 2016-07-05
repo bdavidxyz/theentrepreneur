@@ -1,0 +1,30 @@
+.feature1 {
+  .container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+.subfeature-onethird {
+  width: 100%;
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.subfeature-onethird-text {
+  padding-left:.5rem;
+  padding-right:.5rem;
+}
+
+.subfeature-image {
+  width: 50%; 
+  margin: 0 auto;
+  @include media-breakpoint-up(md) {
+    width: 100%;
+  }
+}

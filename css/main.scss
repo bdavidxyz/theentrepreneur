@@ -12,7 +12,8 @@
 @import "own-hero";
 @import "own-separator";
 @import "own-feature";
-@import "own-subfeature-onethird";
+@import "own-feature0";
+@import "own-feature1";
 
 
 // responsive typography
@@ -33,7 +34,7 @@ html {
 }
 
 // for full-feature example only
-.sub-header {
+.sub-header { 
   padding-bottom: 9px;
   margin: 10rem 0 2rem;
   border-bottom: 1px solid #eee;

@@ -1,0 +1,33 @@
+.feature0 {
+  .container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  embed {
+    width: 100%; 
+    height: auto;
+  }
+}
+
+.feature0__text-left {
+  @extend .col-md-6;
+  align-self:center;
+}
+
+.feature0__img-right {
+  @extend .col-md-5;
+  @extend .col-md-offset-1;
+  width:100%;
+}
+
+.feature0__img-left {
+  @extend .col-md-5;
+  width:100%;
+}
+
+.feature0__text-right {
+  @extend .col-md-offset-1;
+  @extend .col-md-6;
+  align-self:center;
+}

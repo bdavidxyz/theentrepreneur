@@ -37,7 +37,7 @@
   }
 }
 
-.section-title {
+.big-title {
   @extend .lead;
   font-weight: bold;
   font-size: 1.5rem;
@@ -45,5 +45,10 @@
 
 .big-text {
   @extend .lead;
-  color:#697176;
+  @extend .text-muted;
+  // color:#697176;
+}
+
+.small-text {
+  @extend .text-muted;
 }
