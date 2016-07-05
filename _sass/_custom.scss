@@ -69,8 +69,8 @@ $spacers: (
     y: $spacer-y
   ),
   2: (
-    x: ($spacer-x * 1.5),
-    y: ($spacer-y * 1.5)
+    x: ($spacer-x * 2),
+    y: ($spacer-y * 2)
   ),
   3: (
     x: ($spacer-x * 3),
@@ -225,7 +225,7 @@ $body-bg:                       #fff;
 // //
 // // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:        "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 // $font-family-serif:          Georgia, "Times New Roman", Times, serif;
 // $font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace;
 // $font-family-base:           $font-family-sans-serif;
@@ -265,7 +265,7 @@ $font-family-sans-serif:        "Lato", "Helvetica Neue", Helvetica, Arial, sans
 // $headings-line-height:       1.1;
 // $headings-color:             inherit;
 
-// $lead-font-size:             1.25rem;
+$lead-font-size:             1.1rem;
 // $lead-font-weight:           300;
 
 // $text-muted:                  $gray-light;

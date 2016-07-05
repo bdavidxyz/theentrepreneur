@@ -77,6 +77,7 @@ gulp.task('watch', function () {
                 'js/*.js',
                 '*.html',
                 '*.md',
+                'image/*.svg',
                 '**/*.md',
                 '_layouts/*.html',
                 '_includes/*.html',

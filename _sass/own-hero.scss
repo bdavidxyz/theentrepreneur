@@ -3,10 +3,11 @@
   @extend .text-xs-center;
 }
 
-.hero-description {
+.hero-text {
   @extend .lead; 
   @extend .text-xs-center;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .hero-cta {
@@ -34,4 +35,15 @@
   @include media-breakpoint-down(sm) {
     margin-top: 0.3rem;
   }
+}
+
+.section-title {
+  @extend .lead;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.big-text {
+  @extend .lead;
+  color:#697176;
 }

@@ -18,6 +18,7 @@
 // responsive typography
 html {
   font-size: 14px;
+  font-weight: 300;
 }
 
 @include media-breakpoint-up(sm) {
