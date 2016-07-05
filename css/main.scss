@@ -26,6 +26,11 @@ html {
   }
 }
 
+//hero section
+.hero {
+  background-image: linear-gradient(lighten($brand-primary, 30%), $brand-primary);
+}
+
 // for full-feature example only
 .sub-header {
   padding-bottom: 9px;
@@ -45,4 +50,5 @@ h4.component-title {
   @extend .lead;
   margin: 1.5rem 0 .5rem;
 }
+
 
