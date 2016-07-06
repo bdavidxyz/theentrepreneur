@@ -50,14 +50,14 @@ $input-padding-y-xl:             1.25rem;
 @import "bootstrap";
 
 //Import our own businness
-@import "own-common-typography";
-@import "own-common-hero";
-@import "own-separator0";
-@import "own-hero0";
-@import "own-hero1";
-@import "own-feature1";
-@import "own-feature2";
-@import "own-bootstrap-full-feature";
+@import "own/own-common-typography";
+@import "own/own-common-hero";
+@import "own/own-separator0";
+@import "own/own-hero0";
+@import "own/own-hero1";
+@import "own/own-feature1";
+@import "own/own-feature2";
+@import "own/own-bootstrap-full-feature";
 
 
 
