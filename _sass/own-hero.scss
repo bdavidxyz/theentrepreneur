@@ -37,6 +37,17 @@
   }
 }
 
+.hero0 {
+    //background-image: url('/image/pol.jpg');
+    // background-image: url('/image/bluebg.svg');
+  // background-image: linear-gradient($gray-lightest, $gray-lighter);
+  background: radial-gradient(ellipse at center top, lighten($brand-primary, 35%), $brand-primary);
+    // background-image: linear-gradient($grey-light, $grey-lighter);   
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+    color: #fff;
+}
+
 .big-title {
   @extend .lead;
   font-weight: bold;
