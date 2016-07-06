@@ -1,20 +1,12 @@
 .hero0 {
-    // background-image: url('/image/bluebg.svg');
-  background: radial-gradient(ellipse at center top, lighten($brand-primary, 35%), $brand-primary);
-  color: #fff;
+
 }
 
-.big-title {
-  @extend .lead;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.big-text {
-  @extend .lead;
-  @extend .text-muted;
-}
-
-.small-text {
-  @extend .text-muted;
+.hero0__cta-container {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  } 
 }

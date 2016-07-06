@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<section class='index hero1'>
+
+<section class='index hero0'>
 
 
   <div class="container">
@@ -9,34 +10,33 @@ layout: default
       <div class="col-xs-10 col-xs-offset-1">
 
         <h1 class='hero-title'>
-          <div class="separator m-t-12 hidden-xs-down">&nbsp;</div>
-          <div class="separator m-t-2 hidden-sm-up">&nbsp;</div>
+          <div class="separator m-t-6 hidden-xs-down">&nbsp;</div>
+          <div class="separator m-t-1 hidden-sm-up">&nbsp;</div>
           <div class='text-xs-center'>
             Hero-Title
           </div>
         </h1>
         
-        <div class="separator p-t-2"></div>
+        <div class="separator p-t-1"></div>
 
 
         <div class="hero-text text-xs-center">
           Hero-text. A line, not too long, simple enough to convert.
         </div>
         
-        <div class="separator p-t-4"></div>
+        <div class="separator p-t-2"></div>
         
-        <div class="container2">
+        <div class="hero0__cta-container">
           <input type="text" class="hero-input hero-cta" placeholder="Enter email">
           <button type="submit" class="hero-button hero-cta">Call to action</button>
         </div>
-        <div class="separator p-t-24"></div>
-        <div class="separator m-t-6"></div>
+        <div class="separator p-t-6"></div>
+        <div class="separator m-t-3"></div>
       </div><!-- ./col -->
     </div><!-- ./row -->
   </div><!-- ./container -->
 
 </section>
-
 
 
 
@@ -61,18 +61,18 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2">
-        <div class="separator p-t-12"></div>
+        <div class="separator p-t-6"></div>
         <h2 class=" big-title text-xs-center"> big-title</h2>
-        <div class="separator p-t-2"></div>
+        <div class="separator p-t-1"></div>
         <p class="big-text text-xs-center">Big-text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi corrupti quidem, cumque. Nesciunt, iste magnam explicabo a ea laudantium, magni at itaque labore quo maxime, illum officia culpa quidem et.</p>
         <div class='text-xs-center'>
-          <div class="separator p-t-2"></div>
+          <div class="separator p-t-1"></div>
           <button class="btn btn-primary-outline">secondary call to action</button>
         </div>
+        <div class="separator m-t-6"></div>
       </div><!-- ./col -->
     </div><!-- ./row -->
   </div><!-- ./container -->
-</div><!-- /.section-separator -->
 </section>
 
 
@@ -81,25 +81,25 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-xs-offset-4">
-        <div class="line m-t-12"></div>
+        <div class="line"></div>
       </div><!-- ./col -->
     </div><!-- ./row -->
-  </div><!-- ./container -->
+    </div><!-- ./container -->
 </section><!-- /.section-separator -->
 
 
 
 <section class="feature1">
   <div class="container">
-    <div class="separator p-t-12"></div>
+    <div class="separator p-t-6"></div>
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2">
         <h2 class=" big-title text-xs-center"> big-title</h2>
-        <div class="separator p-t-3"></div>
+        <div class="separator p-t-2"></div>
         <p class="big-text text-xs-center">Big-text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Quasi</strong> corrupti quidem, cumque. Nesciunt, iste magnam explicabo a ea laudantium, magni at itaque labore quo maxime, illum officia culpa quidem et.</p>
       </div><!-- ./col -->
     </div><!-- ./row -->
-    <div class="separator p-t-6"></div>
+    <div class="separator p-t-3"></div>
     <div class="row">
       <div class="col-lg-4 text-xs-center feature1__sub">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 471.701 471.701" style="enable-background:new 0 0 471.701 471.701;" xml:space="preserve" width="52px" height="52px">
@@ -132,8 +132,10 @@ layout: default
         <div class="separator p-t-1"></div>
         <h5 class='small-title'>Small-Title</h5>
         <p class='feature1__sub-text small-text'>Small-Text. 3 arguments are always better, it works !</p>
+        <div class="separator m-t-6"></div>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+    </div><!-- /.container -->
   </section>
 
 
@@ -143,7 +145,7 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-xs-4 col-xs-offset-4">
-          <div class="line m-t-12"></div>
+          <div class="line"></div>
         </div><!-- ./col -->
       </div><!-- ./row -->
     </div><!-- ./container -->
@@ -154,7 +156,7 @@ layout: default
 
 
   <section class="feature0">
-    <div class="separator p-t-12"></div>
+    <div class="separator p-t-3"></div>
     <div class="container">
       <div class="row">
         <div class="feature0__text-left">
@@ -163,7 +165,7 @@ layout: default
           <button class="btn btn-primary-outline">secondary call to action</button>
         </div>
         <div class="feature0__img-right">
-          <div class="separator p-t-2 hidden-md-up">&nbsp;</div>
+          <div class="separator p-t-1 hidden-md-up">&nbsp;</div>
           <div class='feature1__sub-image' >
             <object>
               <embed src="image/responsive3.svg" style="width: 100%; height: auto;" />
@@ -172,11 +174,11 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
+  
   <div class="container">
     <div class="row">
       <div class="feature0__img-left">
-        <div class="separator p-t-2 hidden-md-up">&nbsp;</div>
+        <div class="separator p-t-1 hidden-md-up">&nbsp;</div>
         <div class='subfeature-image' >
           <object>
             <embed src="image/responsive3.svg" />
@@ -192,5 +194,4 @@ layout: default
 
 
   </div>
-</div>
 </section>
