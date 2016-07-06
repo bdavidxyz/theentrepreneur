@@ -5,7 +5,7 @@
     margin-right: auto;
   }
   embed {
-    width: 100%; 
+    width: 100%;
     height: auto;
   }
 }
@@ -22,12 +22,12 @@
 }
 
 .feature2__img-left {
+  @extend .offset-md-1;
   @extend .col-md-5;
   width:100%;
 }
 
 .feature2__text-right {
-  @extend .offset-md-1;
   @extend .col-md-6;
   align-self:center;
 }
