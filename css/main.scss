@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 
@@ -8,12 +9,15 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
-@import "own-utilities";
-@import "own-hero";
-@import "own-separator";
-@import "own-feature";
+
+//Import our own businness
+@import "own-common-typography";
+@import "own-common-hero";
+@import "own-separator0";
+@import "own-hero0";
 @import "own-feature0";
 @import "own-feature1";
+@import "own-bootstrap-full-feature";
 
 
 // responsive typography
@@ -28,29 +32,5 @@ html {
   }
 }
 
-//hero section
-.hero {
-  background-image: linear-gradient(lighten($brand-primary, 30%), $brand-primary);
-}
-
-// for full-feature example only
-.sub-header { 
-  padding-bottom: 9px;
-  margin: 10rem 0 2rem;
-  border-bottom: 1px solid #eee;
-  h2 {
-    @extend h1;
-  }
-}
-
-h3.component-title {
-  @extend .lead;
-  font-weight: bold;
-  margin: 1.5rem 0 1rem;
-} 
-h4.component-title {
-  @extend .lead;
-  margin: 1.5rem 0 .5rem;
-}
 
 
