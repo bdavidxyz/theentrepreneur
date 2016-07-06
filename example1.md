@@ -30,7 +30,7 @@ layout: default
           <input type="text" class="hero-input hero-cta" placeholder="Enter email">
           <button type="submit" class="hero-button hero-cta">Call to action</button>
         </div>
-        <div class="separator p-t-6"></div>
+        <div class="separator p-t-12"></div>
         <div class="separator m-t-3"></div>
       </div><!-- ./col -->
     </div><!-- ./row -->

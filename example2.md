@@ -13,7 +13,7 @@ layout: default
           <div class="separator m-t-6 hidden-xs-down">&nbsp;</div>
           <div class="separator m-t-1 hidden-sm-up">&nbsp;</div>
           <div class='text-xs-center'>
-            Hero-Title2
+            Hero-Title
           </div>
         </h1>
         
