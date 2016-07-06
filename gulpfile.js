@@ -73,6 +73,7 @@ gulp.task('optimize-html', ['optimize-js'], function() {
  */
 gulp.task('watch', function () {
     gulp.watch(['_sass/*.scss',
+                '_sass/**/*.scss',
                 'css/*.scss',
                 'js/*.js',
                 '*.html',
@@ -81,6 +82,7 @@ gulp.task('watch', function () {
                 '**/*.md',
                 '_layouts/*.html',
                 '_includes/*.html',
+                '_includes/**/*.html',
                 '_includes/*.svg',
                 '_posts/*'], ['jekyll-rebuild']);
 });

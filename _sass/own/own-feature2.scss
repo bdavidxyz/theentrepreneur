@@ -17,7 +17,7 @@
 
 .feature2__img-right {
   @extend .col-md-5;
-  @extend .col-md-offset-1;
+  @extend .offset-md-1;
   width:100%;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .feature2__text-right {
-  @extend .col-md-offset-1;
+  @extend .offset-md-1;
   @extend .col-md-6;
   align-self:center;
 }
