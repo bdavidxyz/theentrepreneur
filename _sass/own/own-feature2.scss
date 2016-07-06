@@ -21,13 +21,17 @@
   width:100%;
 }
 
+
+
 .feature2__img-left {
-  @extend .offset-md-1;
   @extend .col-md-5;
+  @extend .pull-md-7;
   width:100%;
 }
 
 .feature2__text-right {
+  @extend .offset-md-1;
   @extend .col-md-6;
+   @extend .push-md-5;
   align-self:center;
 }
