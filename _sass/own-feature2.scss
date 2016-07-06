@@ -1,4 +1,4 @@
-.feature0 {
+.feature2 {
   .container {
     width: 70%;
     margin-left: auto;
@@ -10,23 +10,23 @@
   }
 }
 
-.feature0__text-left {
+.feature2__text-left {
   @extend .col-md-6;
   align-self:center;
 }
 
-.feature0__img-right {
+.feature2__img-right {
   @extend .col-md-5;
   @extend .col-md-offset-1;
   width:100%;
 }
 
-.feature0__img-left {
+.feature2__img-left {
   @extend .col-md-5;
   width:100%;
 }
 
-.feature0__text-right {
+.feature2__text-right {
   @extend .col-md-offset-1;
   @extend .col-md-6;
   align-self:center;
