@@ -32,7 +32,7 @@ $spacers: (
   10: (x: ($spacer-x * 10), y: ($spacer-y * 10) ),
   11: (x: ($spacer-x * 11), y: ($spacer-y * 11) ),
   12: (x: ($spacer-x * 12), y: ($spacer-y * 12) )
-);
+  );
 
 
 $font-family-sans-serif:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -94,4 +94,12 @@ html {
   font-size: $font-size-lg;
   line-height: $line-height-lg;
   @include border-radius($input-border-radius-lg);
+}
+
+.adaptable-container {
+  @extend .container;
+  width: 70%;
+  @include media-breakpoint-down(sm) {
+    width: 80%;
+  }
 }
