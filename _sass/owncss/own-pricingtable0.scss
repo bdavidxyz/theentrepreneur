@@ -19,3 +19,19 @@
     background-color: $gray-lightest;
   }
 }
+
+.pricingtable0__deck {
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .card {
+      flex: 3 1 0%;
+      margin-left: 0.25rem;
+    }
+    .card:first-child {
+      margin-left: 0;
+    }
+
+  }
+}
