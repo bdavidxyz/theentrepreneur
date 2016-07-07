@@ -1,0 +1,28 @@
+
+.navbar1 {
+  height: 6rem;
+  z-index: 1;
+  background-color: $body-bg;
+  .container {
+    width: 70%;
+    height: 100%;
+  }
+  a {
+    color: $body-color;
+  }
+}
+
+.navbar1__bar {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+
+.has-docked-nav .navbar1 {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+}
