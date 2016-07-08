@@ -35,7 +35,7 @@ $spacers: (
   );
 
 
-$font-family-sans-serif:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:        "Roboto", Helvetica, Arial, sans-serif;
 $btn-padding-x-xl:               1.75rem;
 $btn-padding-y-xl:               1.25rem;
 $input-padding-x-xl:             1.75rem;
@@ -65,6 +65,7 @@ $input-padding-y-xl:             1.25rem;
 @import "owncss/own-feature3";
 @import "owncss/own-pricingtable0";
 @import "owncss/own-pricingtable1";
+@import "owncss/own-footer0";
 @import "owncss/own-bootstrap-full-feature";
 @import "owncss/own-utilities";
 

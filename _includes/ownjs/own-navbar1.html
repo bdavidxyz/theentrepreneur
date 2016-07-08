@@ -9,16 +9,7 @@ if ($('.navbar1').length !==0 ) {
   var $nav = $('.navbar1'),
   $body = $('body'),
   $window = $(window),
-  navOffsetTop = $nav.offset().top,
-  $document = $(document),
-  entityMap = {
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': '&quot;',
-    "'": '&#39;',
-    "/": '&#x2F;'
-  };
+  navOffsetTop = $nav.offset().top;
 
   function init() {
     $window.on('scroll', onScroll);
@@ -27,7 +18,6 @@ if ($('.navbar1').length !==0 ) {
   }
 
   function smoothScroll(e) {
-    console.log('smoothscroll !!! ');
     e.preventDefault();
     $(document).off("scroll");
     var target = this.hash,
@@ -62,8 +52,6 @@ if ($('.navbar1').length !==0 ) {
       $body.removeClass('has-docked-nav');
     }
   }
-
-
 
   init();
 
