@@ -11,6 +11,7 @@ layout: default
   {% include ownhtml/own-feature2.html %}
   {% include ownhtml/own-separator2.html %}
   {% include ownhtml/own-pricingtable0.html %}
+  {% include ownhtml/own-footer1.html %}
 
 
 
